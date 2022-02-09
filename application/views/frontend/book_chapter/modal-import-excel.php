@@ -10,13 +10,10 @@
                     </button>
                 </div>
                 <div class="modal-body mb-3">
-
                     <!-- Upload File -->
                     <input name="uploadFile" class="form-control mb-1" type="file" accept=".xls,.xlsx,.csv" required>
-
                     <!-- Download Template -->
                     <a href="<?= base_url('assets/excel/template.xlsx') ?>" class="float-right" download>Download Template</a>
-
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" data-dismiss="modal">Close</button>

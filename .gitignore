@@ -10,3 +10,6 @@ application/logs/*
 !application/logs/index.html
 
 !application/*/.htaccess
+
+.env
+
